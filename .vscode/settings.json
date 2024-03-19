@@ -1,0 +1,7 @@
+{
+  "rust-analyzer.linkedProjects": [
+    ".\\mvc\\Cargo.toml",
+    ".\\mvc\\Cargo.toml"
+  ],
+  "rust-analyzer.showUnlinkedFileNotification": false
+}
