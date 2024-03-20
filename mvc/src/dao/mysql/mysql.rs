@@ -1,5 +1,5 @@
 use rocket_db_pools::{
-    sqlx::{self, database},
+    sqlx::{self},
     Database,
 };
 
