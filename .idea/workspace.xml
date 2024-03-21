@@ -13,10 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0894395a-8d7c-4fd1-9781-f92ba139ad29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mvc/target/debug/deps/libdevise_core-9cc658a320cb89e9.rlib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/target/debug/deps/libproc_macro2_diagnostics-bd96a89dee631d8d.rlib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/target/debug/deps/librocket_http-c8d2b3635c0de88d.rlib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/target/debug/deps/libsyn-759ac560f11c84d9.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/controller/user.rs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/controller/user.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/dao/mysql/user.rs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/dao/mysql/user.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/logic/user.rs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/logic/user.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/src/models/user.rs" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/models/user.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,23 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="034b6591-16a8-4b41-972e-beeac3bed9c4" />
+        <option name="url" value="git@github.com:steven1041/rocket_mvc.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mvc/src/controller/user.rs" root0="SKIP_INSPECTION" />
@@ -49,11 +65,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cargo.Run mvc.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "E:/projestcsNew/rustProjects/rocket_mvc/mvc",
     "node.js.detected.package.eslint": "true",
@@ -63,12 +82,18 @@
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "settings.editor.selected.configurable": "language.rust.rustfmt",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Run mvc" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package mvc --bin mvc" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/mvc" />
+      <envs />
       <option name="emulateTerminal" value="false" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -76,7 +101,6 @@
       <option name="withSudo" value="false" />
       <option name="buildTarget" value="REMOTE" />
       <option name="backtrace" value="SHORT" />
-      <envs />
       <option name="isRedirectInput" value="false" />
       <option name="redirectInputPath" value="" />
       <method v="2">
